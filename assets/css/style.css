@@ -35,7 +35,6 @@ nav ul li a {
 }
 
 main {
-  color: #333;
   padding: 20px;
   background-color: #fff;
   margin-top: 10px;
@@ -58,4 +57,14 @@ article h3 a {
 
 article h3 a:hover {
   color: #575757;
+}
+
+/* 淡入淡出动画样式 */
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
 }
