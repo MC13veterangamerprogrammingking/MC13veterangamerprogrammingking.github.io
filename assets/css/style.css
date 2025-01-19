@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  transition: opacity 1s ease-in-out;
 }
 
 header {
@@ -26,6 +27,11 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ddd;
 }
 
 .container {
@@ -59,12 +65,13 @@ article h3 a:hover {
   color: #575757;
 }
 
-/* 淡入淡出动画样式 */
-.fade-in {
+/* 初始化动画样式 */
+.animate {
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transform: translateY(20px);
 }
 
-.fade-in.visible {
+.animate.visible {
   opacity: 1;
+  transform: translateY(0);
 }
