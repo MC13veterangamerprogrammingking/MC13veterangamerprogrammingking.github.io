@@ -1,60 +1,71 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-header {
-  background-color: #ec3131;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-main {
-  padding: 20px;
-  background-color: #fff;
-  margin-top: 10px;
-}
-
-footer {
-  background-color: #ec3131;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-article h3 a {
-  color: #333;
-  text-decoration: none;
-}
-
-article h3 a:hover {
-  color: #575757;
-}
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #ec3131;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 10px;
+  }
+  
+  footer {
+    background-color: #ec3131;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  article h3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  article h3 a:hover {
+    color: #575757;
+  }
+  
+  /* 淡入淡出动画样式 */
+  .fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+  }
+  
