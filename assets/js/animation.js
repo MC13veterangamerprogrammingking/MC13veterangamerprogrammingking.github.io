@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // 在页面加载后延迟一段时间显示文章
   setTimeout(showArticles, 500);
+  });
 
   // 获取所有导航链接
   const navLinks = document.querySelectorAll('.nav-link');
