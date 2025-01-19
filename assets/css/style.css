@@ -26,6 +26,11 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ddd;
 }
 
 .container {
@@ -35,7 +40,6 @@ nav ul li a {
 }
 
 main {
-  color: #333;
   padding: 20px;
   background-color: #fff;
   margin-top: 10px;
@@ -54,8 +58,34 @@ footer {
 article h3 a {
   color: #333;
   text-decoration: none;
+  transition: color 0.3s;
 }
 
 article h3 a:hover {
   color: #575757;
+}
+
+/* 动画效果 */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 导航栏悬停效果 */
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #ddd;
+  transform: scale(1.05);
 }
