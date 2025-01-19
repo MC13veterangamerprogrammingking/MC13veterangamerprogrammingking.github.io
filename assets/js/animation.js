@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       // 添加过渡效果
       gsap.to(document.body, {
-        opacity: 0,
+        opacity: 50,
         duration: 1,
         ease: 'power1.out',
         onComplete: function() {
