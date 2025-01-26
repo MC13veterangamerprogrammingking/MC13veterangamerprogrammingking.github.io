@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   // 获取所有需要动画的文章
-  const articles = document.querySelectorAll('animate');
+  const articles = document.querySelectorAll('.animate');
 
   // 显示文章
   function showArticles() {
