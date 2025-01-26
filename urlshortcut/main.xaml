@@ -115,7 +115,7 @@
                Title="Modrinth"
                Info="Discover, play, and share Minecraft content through our open-source platform built for the community."
                EventType="打开网页" EventData="https://modrinth.com/" Type="Clickable" />
-          <local:MyListItem Margin="-2,0,0,0" Logo="https://www.planetminecraft.com/favicon.ico"
+          <local:MyListItem Margin="-2,0,0,0" Logo="https://MC13veterangamerprogrammingking.github.io/urlshortcut/0011.ico"
                Title="Planet Minecraft"
                Info="Trending Minecraft Community Content."
                EventType="打开网页" EventData="https://www.planetminecraft.com/" Type="Clickable" />
