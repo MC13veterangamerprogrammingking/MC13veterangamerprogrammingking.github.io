@@ -131,4 +131,4 @@
      </StackPanel>
 </local:MyCard>
 
-<TextBlock Text="©MFn233 2023/7/22 | Simple Mainpage By MFn." FontSize="12" Foreground="{DynamicResource ColorBrush4}" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+<TextBlock Text="©MC13veterangamerprogrammingking 2025/1/28 | Gadgets Home By MC13veterangamerprogrammingking." FontSize="12" Foreground="{DynamicResource ColorBrush4}" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
