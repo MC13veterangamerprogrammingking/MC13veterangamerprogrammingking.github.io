@@ -125,7 +125,7 @@
           <local:MyListItem Margin="-2,0,0,0" Logo="https://mcdlspot.com/assets/img/favicon.png"
                Title="MCDLSpot" Info="Minecraft PE Downloads, Mods, Skins and Guides"
                EventType="打开网页" EventData="https://mcdlspot.com/" Type="Clickable" />
-          <local:MyListItem Margin="-2,0,0,0" Logo="0001.png"
+          <local:MyListItem Margin="-2,0,0,0" Logo="https://MC13veterangamerprogrammingking.github.io/urlshortcut/0001.png"
                Title="NameMC" Info="Minecraft Names and Skins"
                EventType="打开网页" EventData="https://namemc.com/" Type="Clickable" />
      </StackPanel>
