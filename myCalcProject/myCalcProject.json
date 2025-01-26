@@ -1,0 +1,115 @@
+{
+    "targets": [
+        {
+            "isStage": true,
+            "name": "Stage",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [],
+            "sounds": [],
+            "x": 0,
+            "y": 0,
+            "size": 100,
+            "visible": true,
+            "rotationStyle": "all around",
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around",
+            "isStage": true,
+            "tempo": 60,
+            "videoTransparency": 50,
+            "videoState": "on",
+            "textToSpeechLanguage": null
+        },
+        {
+            "isStage": false,
+            "name": "Sprite1",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {
+                "block1": {
+                    "opcode": "myCalcExtension/add",
+                    "next": null,
+                    "parent": null,
+                    "inputs": {
+                        "ADD1": {
+                            "name": "ADD1",
+                            "block": null,
+                            "shadow": "block2"
+                        },
+                        "ADD2": {
+                            "name": "ADD2",
+                            "block": null,
+                            "shadow": "block3"
+                        }
+                    },
+                    "fields": {},
+                    "topLevel": true,
+                    "shadow": false
+                },
+                "block2": {
+                    "opcode": "data_number",
+                    "next": null,
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {
+                        "NUM": {
+                            "name": "NUM",
+                            "value": 10
+                        }
+                    },
+                    "topLevel": false,
+                    "shadow": true
+                },
+                "block3": {
+                    "opcode": "data_number",
+                    "next": null,
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {
+                        "NUM": {
+                            "name": "NUM",
+                            "value": 5
+                        }
+                    },
+                    "topLevel": false,
+                    "shadow": true
+                }
+            },
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "108849500237515418b72103f269e813",
+                    "name": "costume1",
+                    "bitmapResolution": 1,
+                    "md5ext": "108849500237515418b72103f269e813.svg",
+                    "dataFormat": "svg",
+                    "rotationCenterX": 47.5,
+                    "rotationCenterY": 50
+                }
+            ],
+            "sounds": [],
+            "x": -24,
+            "y": -18,
+            "size": 100,
+            "visible": true,
+            "rotationStyle": "all around",
+            "direction": 90,
+            "draggable": true
+        }
+    ],
+    "monitors": [],
+    "extensions": [
+        "myCalcExtension"
+    ],
+    "meta": {
+        "semver": "3.0.0",
+        "vm": "0.2.0-prerelease.20211011121105"
+    }
+}
