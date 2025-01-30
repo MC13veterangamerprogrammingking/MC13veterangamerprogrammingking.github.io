@@ -4,7 +4,7 @@ function redirect() {
     var timer = setInterval(function() {
         if(time === 0) {
             div.innerHTML = "请等一下…";
-            location.href = "https://MC13veterangamerprogrammingking.github.io/";
+            location.href = "https://mc13-blog.rth2.xyz/";
             clearInterval(timer);
         } else {
             div.innerHTML = "将在 " + time + " 秒后跳转";
