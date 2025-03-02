@@ -132,11 +132,11 @@
 </local:MyCard>
 <local:MyCard Title="GitHub - PCL2 常用网址" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
      <StackPanel Margin="25,40,23,15">
-		  <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="PCL2 源代码库" Info="Hex-Dragon/PCL2" EventData="https://github.com/Hex-Dragon/PCL2" EventType="打开网页" Type="Clickable"/>
-            <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="PCL2 内置帮助 源代码库" Info="LTCatt/PCL2" EventData="https://github.com/LTCatt/PCL2Help" EventType="打开网页" Type="Clickable"/>
-            <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="issues 反馈列表 - PCL2 源代码库" Info="Hex-Dragon/PCL2/issues" EventData="https://github.com/Hex-Dragon/PCL2/issues" EventType="打开网页" Type="Clickable"/>
-            <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="Pull requests(拉取请求) - PCL2 源代码库" Info="Hex-Dragon/PCL2/pulls" EventData="https://github.com/Hex-Dragon/PCL2/pulls" EventType="打开网页" Type="Clickable"/>
-            <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="讨论 - PCL2 源代码库" Info="Hex-Dragon/PCL2/discussions" EventData="https://github.com/Hex-Dragon/PCL2/discussions" EventType="打开网页" Type="Clickable"/>
+		  <local:MyListItem Margin="-2,0,0,0" Logo="https://MC13veterangamerprogrammingking.github.io/urlshortcut/favicon.ico" Title="PCL2 源代码库" Info="Hex-Dragon/PCL2" EventData="https://github.com/Hex-Dragon/PCL2" EventType="打开网页" Type="Clickable"/>
+            <local:MyListItem Margin="-2,0,0,0" Logo="https://MC13veterangamerprogrammingking.github.io/urlshortcut/favicon.ico" Title="PCL2 内置帮助 源代码库" Info="LTCatt/PCL2" EventData="https://github.com/LTCatt/PCL2Help" EventType="打开网页" Type="Clickable"/>
+            <local:MyListItem Margin="-2,0,0,0" Logo="https://MC13veterangamerprogrammingking.github.io/urlshortcut/favicon.ico" Title="issues 反馈列表 - PCL2 源代码库" Info="Hex-Dragon/PCL2/issues" EventData="https://github.com/Hex-Dragon/PCL2/issues" EventType="打开网页" Type="Clickable"/>
+            <local:MyListItem Margin="-2,0,0,0" Logo="https://MC13veterangamerprogrammingking.github.io/urlshortcut/favicon.ico" Title="Pull requests(拉取请求) - PCL2 源代码库" Info="Hex-Dragon/PCL2/pulls" EventData="https://github.com/Hex-Dragon/PCL2/pulls" EventType="打开网页" Type="Clickable"/>
+            <local:MyListItem Margin="-2,0,0,0" Logo="https://MC13veterangamerprogrammingking.github.io/urlshortcut/favicon.ico" Title="讨论 - PCL2 源代码库" Info="Hex-Dragon/PCL2/discussions" EventData="https://github.com/Hex-Dragon/PCL2/discussions" EventType="打开网页" Type="Clickable"/>
      </StackPanel>
 </local:MyCard>
 
