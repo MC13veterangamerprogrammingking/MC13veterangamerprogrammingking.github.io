@@ -71,7 +71,7 @@
                Info="最大的Minecraft中文Mod百科" EventType="打开网页" EventData="https://www.mcmod.cn/"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,0,0" Logo="https://www.mcnav.net/wp-content/uploads/2021/08/1627802813-logo_static.png"
-               Title="MC导航网" Info="这个网站提供了各大MC有关网站的导航页面，有很多简单主页没有收录的！"
+               Title="MC导航网" Info="这个网站提供了各大MC有关网站的导航页面，有很多小工具主页没有收录的！"
                EventType="打开网页" EventData="https://www.mcnav.net/" Type="Clickable" />
           <local:MyListItem Margin="-2,0,0,0" Logo="https://i.sodamc.com/soda/2024/02/f.png"
                Title="SodaMC" Info="SodaMC我的世界中文论坛" EventType="打开网页" EventData="https://sodamc.com/"
@@ -128,6 +128,15 @@
           <local:MyListItem Margin="-2,0,0,0" Logo="https://MC13veterangamerprogrammingking.github.io/urlshortcut/0001.png"
                Title="NameMC" Info="Minecraft Names and Skins"
                EventType="打开网页" EventData="https://namemc.com/" Type="Clickable" />
+     </StackPanel>
+</local:MyCard>
+<local:MyCard Title="GitHub - PCL2 常用网址" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+     <StackPanel Margin="25,40,23,15">
+		  <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="PCL2 源代码库" Info="Hex-Dragon/PCL2" EventData="https://github.com/Hex-Dragon/PCL2" EventType="打开网页" Type="Clickable"/>
+            <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="PCL2 内置帮助 源代码库" Info="LTCatt/PCL2" EventData="https://github.com/LTCatt/PCL2Help" EventType="打开网页" Type="Clickable"/>
+            <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="issues 反馈列表 - PCL2 源代码库" Info="Hex-Dragon/PCL2/issues" EventData="https://github.com/Hex-Dragon/PCL2/issues" EventType="打开网页" Type="Clickable"/>
+            <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="Pull requests(拉取请求) - PCL2 源代码库" Info="Hex-Dragon/PCL2/pulls" EventData="https://github.com/Hex-Dragon/PCL2/pulls" EventType="打开网页" Type="Clickable"/>
+            <local:MyListItem Margin="-2,0,0,0" Logo="https://github.githubassets.com/favicon.ico" Title="讨论 - PCL2 源代码库" Info="Hex-Dragon/PCL2/discussions" EventData="https://github.com/Hex-Dragon/PCL2/discussions" EventType="打开网页" Type="Clickable"/>
      </StackPanel>
 </local:MyCard>
 
